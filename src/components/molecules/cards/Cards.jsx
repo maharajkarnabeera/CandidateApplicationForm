@@ -1,4 +1,4 @@
-import Card from "../../atoms/card/Card";
+import Card from '../../atoms/card/Card'
 
 function CardContainer({cardsData}) {
 

@@ -23,11 +23,6 @@
 
 .dropdown-filter:focus {
     transform: scale(105%);
-    
     box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
     outline: none;
-}
-
-select.dropdown-filter::after {
-    content: "abcd";
 }

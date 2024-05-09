@@ -1,6 +1,10 @@
+import JobPage from './JobsPage';
+
 function App() {
   return (
-    null
+    <>
+      <JobPage />
+    </>
   );
 }
 

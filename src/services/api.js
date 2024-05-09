@@ -20,7 +20,7 @@ export default async function getData(offset) {
         if (!response.ok) {
             throw new Error(`API request failed with status: ${response.status}`);
         }
-
+        console.log(response)
         // Check for valid JSON response
         return await response.json();
 
